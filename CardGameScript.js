@@ -1,8 +1,6 @@
 var canvas =  document.getElementById('canvas');
 var player2 = document.getElementById('player2');
 player2.onclick = playPlayer2;
-var start_player2 = document.getElementById('player1');
-player1.onclick = playPlayer1;
 
 var player = {
 	playersCount : 2/*,
